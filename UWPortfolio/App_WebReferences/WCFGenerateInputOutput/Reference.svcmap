@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="de29e089-ecd0-4473-aaa7-5a3c4f824f8a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.1.41.196/AS400_Reinstatment/WCFGenerateInputOutput.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WCFGenerateInputOutput.xsd" MetadataType="Schema" ID="e055013b-3dbb-4ffb-93ee-e75130d5a02d" SourceId="1" SourceUrl="http://10.1.41.196/AS400_Reinstatment/WCFGenerateInputOutput.svc?xsd=xsd4" />
+    <MetadataFile FileName="WCFGenerateInputOutput.wsdl" MetadataType="Wsdl" ID="b209afee-f0f5-4101-a07e-bd50bd67597c" SourceId="1" SourceUrl="http://10.1.41.196/AS400_Reinstatment/WCFGenerateInputOutput.svc?wsdl" />
+    <MetadataFile FileName="WCFGenerateInputOutput1.xsd" MetadataType="Schema" ID="9fcfb19e-ee1a-4a6f-883a-d5d0fb2fbf21" SourceId="1" SourceUrl="http://10.1.41.196/AS400_Reinstatment/WCFGenerateInputOutput.svc?xsd=xsd1" />
+    <MetadataFile FileName="WCFGenerateInputOutput2.xsd" MetadataType="Schema" ID="72ceeae9-9c9d-4815-8ee7-f1e6f1440cea" SourceId="1" SourceUrl="http://10.1.41.196/AS400_Reinstatment/WCFGenerateInputOutput.svc?xsd=xsd2" />
+    <MetadataFile FileName="WCFGenerateInputOutput3.xsd" MetadataType="Schema" ID="0c43348b-c526-4d44-b21e-aa79532efa8d" SourceId="1" SourceUrl="http://10.1.41.196/AS400_Reinstatment/WCFGenerateInputOutput.svc?xsd=xsd3" />
+    <MetadataFile FileName="WCFGenerateInputOutput4.xsd" MetadataType="Schema" ID="24d64f7b-db3e-4213-9ec1-41331524dfab" SourceId="1" SourceUrl="http://10.1.41.196/AS400_Reinstatment/WCFGenerateInputOutput.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

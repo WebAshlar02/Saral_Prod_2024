@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9169362f-4d5f-4f0a-bff5-46ac1c86b873" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.1.41.221/WS.POS.HIT.MQ/WCFHitMQ.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WCFHitMQ.disco" MetadataType="Disco" ID="0be856f5-7945-4d58-9908-9aac6e287aa6" SourceId="1" SourceUrl="http://10.1.41.221/WS.POS.HIT.MQ/WCFHitMQ.svc?disco" />
+    <MetadataFile FileName="WCFHitMQ.xsd" MetadataType="Schema" ID="22d7838c-7c68-4dd1-87c0-d4d40a63570d" SourceId="1" SourceUrl="http://10.1.41.221/WS.POS.HIT.MQ/WCFHitMQ.svc?xsd=xsd1" />
+    <MetadataFile FileName="WCFHitMQ1.xsd" MetadataType="Schema" ID="c8f6b188-ea20-43da-af23-199a902b5354" SourceId="1" SourceUrl="http://10.1.41.221/WS.POS.HIT.MQ/WCFHitMQ.svc?xsd=xsd0" />
+    <MetadataFile FileName="WCFHitMQ2.xsd" MetadataType="Schema" ID="62c479fa-4fe1-492c-bca6-34d09bd7b4b9" SourceId="1" SourceUrl="http://10.1.41.221/WS.POS.HIT.MQ/WCFHitMQ.svc?xsd=xsd2" />
+    <MetadataFile FileName="WCFHitMQ.wsdl" MetadataType="Wsdl" ID="5aaff8d1-9cfa-478c-8b2e-5bb18c2ab9d5" SourceId="1" SourceUrl="http://10.1.41.221/WS.POS.HIT.MQ/WCFHitMQ.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

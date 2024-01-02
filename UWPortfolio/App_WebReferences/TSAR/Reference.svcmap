@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4dde8c26-54b0-4ef9-90a0-3040a148c700" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://mumhoiauxlf01.fgi.ad:10004/FG.LF.TSAR_MSAR_FSAR/Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.disco" MetadataType="Disco" ID="c2f829a5-afe7-404d-be4d-619ec9188db5" SourceId="1" SourceUrl="http://mumhoiauxlf01.fgi.ad:10004/FG.LF.TSAR_MSAR_FSAR/Service.svc?disco" />
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="40048054-98d7-44bd-aee0-e0fad4f2af22" SourceId="1" SourceUrl="http://mumhoiauxlf01.fgi.ad:10004/FG.LF.TSAR_MSAR_FSAR/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="9fb5e81f-331a-4aa0-8b97-b09ce49c8ad6" SourceId="1" SourceUrl="http://mumhoiauxlf01.fgi.ad:10004/FG.LF.TSAR_MSAR_FSAR/Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="8a7b33f4-3c25-4012-8722-6cb874de93a2" SourceId="1" SourceUrl="http://mumhoiauxlf01.fgi.ad:10004/FG.LF.TSAR_MSAR_FSAR/Service.svc?wsdl" />
+    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="188c8e88-1976-4041-beb8-1727a394f8ef" SourceId="1" SourceUrl="http://mumhoiauxlf01.fgi.ad:10004/FG.LF.TSAR_MSAR_FSAR/Service.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

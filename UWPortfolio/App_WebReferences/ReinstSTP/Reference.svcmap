@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d7cc3e0b-e9d8-4a98-bf0f-ae1ff5cb0c8b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.1.41.196/ReinstSTP_Service/STPService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="STPService.disco" MetadataType="Disco" ID="16d694c5-6475-482a-9e7a-f65772d288ec" SourceId="1" SourceUrl="http://10.1.41.196/ReinstSTP_Service/STPService.svc?disco" />
+    <MetadataFile FileName="STPService.xsd" MetadataType="Schema" ID="fd737973-aef8-4622-a6db-20082f71b399" SourceId="1" SourceUrl="http://10.1.41.196/ReinstSTP_Service/STPService.svc?xsd=xsd0" />
+    <MetadataFile FileName="STPService1.xsd" MetadataType="Schema" ID="40c083d9-1ae5-4b19-839d-7b5dc0cc83e6" SourceId="1" SourceUrl="http://10.1.41.196/ReinstSTP_Service/STPService.svc?xsd=xsd2" />
+    <MetadataFile FileName="STPService2.xsd" MetadataType="Schema" ID="d8420a19-7e4c-4007-b007-e9580a6ad20c" SourceId="1" SourceUrl="http://10.1.41.196/ReinstSTP_Service/STPService.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="9feb57a3-d111-4d28-8b84-784aa3773e04" SourceId="1" SourceUrl="http://10.1.41.196/ReinstSTP_Service/STPService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
