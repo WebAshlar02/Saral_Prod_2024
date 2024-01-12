@@ -8937,7 +8937,8 @@ public partial class Appcode_Default : System.Web.UI.Page
                         }
 
                         /*risk mandatory---added txtiib score suggested ny diju on 29 may 2021 commented as this is not feasible*/
-                        if (string.IsNullOrEmpty(txtENYScore.Text) || string.IsNullOrEmpty(txtSaralRiskScore.Text))//|| string.IsNullOrEmpty(txtIIBScore.Text))
+                        //if (string.IsNullOrEmpty(txtENYScore.Text) || string.IsNullOrEmpty(txtSaralRiskScore.Text))//|| string.IsNullOrEmpty(txtIIBScore.Text))
+                        if ( string.IsNullOrEmpty(txtSaralRiskScore.Text))//|| string.IsNullOrEmpty(txtIIBScore.Text))
                         {
                             ShowPopupMessage("Cannot Approve Since Risk/ENY/IIB Score Is Not Updated");
                             throw new Exception("UDE-Cannot Approve Since Risk/ENY/IIB Score Is Not Updated");
