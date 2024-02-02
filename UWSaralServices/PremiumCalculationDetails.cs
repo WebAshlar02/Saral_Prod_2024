@@ -524,8 +524,8 @@ namespace UWSaralServices
                             objPayoutDetail.LumpSumPercent = (string.IsNullOrEmpty(strLumpsumPer)) ? Convert.ToInt32(_dsContract.Tables["PAYOUTDTLS"].Rows[0]["LumpSumPercent"]) : Convert.ToInt32(strLumpsumPer);
                             //objPayoutDetail.PayOutFrquency = (string.IsNullOrEmpty(strPayoutFreq)) ? Convert.ToString(_dsContract.Tables["PAYOUTDTLS"].Rows[0]["PayOutFrquency"]) : strPayoutFreq;
                         }
-                    }
-                    if (strProdcode == "E91" || strProdcode == "E92" || strProdcode == "E97" || strProdcode == "E98")/*37.1*/
+                    }//new Product code added -EA1,EA2 - bhaumik patel
+                    if (strProdcode == "E91" || strProdcode == "E92" || strProdcode == "E97" || strProdcode == "E98" || strProdcode == "EA2")/*37.1*/
                     {
                         
                         if (_dsContract.Tables.Count > 2 && _dsContract.Tables["PAYOUTDTLS"].Rows.Count > 0)
@@ -533,14 +533,14 @@ namespace UWSaralServices
                             objPayoutDetail.Category = (string.IsNullOrEmpty(strCategory)) ? Convert.ToString(_dsContract.Tables["PAYOUTDTLS"].Rows[0]["Category"]) : strCategory;
                             objPayoutDetail.PayOutFrquency = (string.IsNullOrEmpty(strPayoutFreq)) ? Convert.ToString(_dsContract.Tables["PAYOUTDTLS"].Rows[0]["PayOutFrquency"]) : strPayoutFreq;
                             /*37.1 START*/
-                            if (strProdcode == "E97" || strProdcode == "E98")
+                            if (strProdcode == "E97" || strProdcode == "E98" || strProdcode == "EA2")//new Product code added -EA1,EA2 - bhaumik patel
                             {
                                 objPayoutDetail.PayoutType = (string.IsNullOrEmpty(strPayoutType)) ? Convert.ToString(_dsContract.Tables["PAYOUTDTLS"].Rows[0]["PayoutType"]) : strPayoutType;
                             }
                             /*37.1 END*/
                         }
                     }
-                    if (strProdcode == "E93" || strProdcode == "E94")
+                    if (strProdcode == "E93" || strProdcode == "E94" || strProdcode == "EA1")//new Product code added -EA1,EA2 - bhaumik patel
                     {
                         if (!string.IsNullOrEmpty(objChangeObj.Prod_policydetails._ProductCategory))
                         {

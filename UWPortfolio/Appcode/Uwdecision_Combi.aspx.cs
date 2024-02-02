@@ -2091,7 +2091,7 @@ public partial class Appcode_Default : System.Web.UI.Page
                     ddlpayoutfreq.SelectedValue = _dsProdDtls.Rows[i]["PayOutFrquency"].ToString();
                     //ddlCategory.SelectedItem.Text= _dsProdDtls.Rows[i]["Category"].ToString();
                 }
-                if (_dsProdDtls.Rows[i]["ProductCode"].ToString() == "E97" || _dsProdDtls.Rows[i]["ProductCode"].ToString() == "E98")
+                if (_dsProdDtls.Rows[i]["ProductCode"].ToString() == "E97" || _dsProdDtls.Rows[i]["ProductCode"].ToString() == "E98"|| _dsProdDtls.Rows[i]["ProductCode"].ToString() == "EA2")// new Product EA2
                 {
                     DropDownList ddlpayoutfreq = (DropDownList)item.FindControl("ddlpayoutfreq");
                     DropDownList ddlPayoutType = (DropDownList)item.FindControl("ddlPayoutType");
@@ -14844,7 +14844,8 @@ public partial class Appcode_Default : System.Web.UI.Page
             HtmlGenericControl divPayoutTerm = (HtmlGenericControl)item.FindControl("divPayoutTerm");
             /*36.1 START*/
             TextBox txtprocode = (TextBox)item.FindControl("txtProdcode");
-            if (txtprocode.Text != "E97" || txtprocode.Text != "E98")
+            if (txtprocode.Text != "E97" || txtprocode.Text != "E98" || txtprocode.Text != "EA2")// New Product ERA2
+
             {
                 /*36.1 END*/
                 if (ddlPayoutType.SelectedValue != "--Select--")

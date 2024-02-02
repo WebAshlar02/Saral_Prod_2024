@@ -2107,12 +2107,12 @@ public partial class Appcode_Default : System.Web.UI.Page
                 ddlPayoutType.SelectedValue = _dsProdDtls.Rows[0]["PayoutType"].ToString();
                 ddlPayoutTerm.SelectedValue = _dsProdDtls.Rows[0]["PayoutTerm"].ToString();
             }
-            if (txtProdcode.Text == "E91" || txtProdcode.Text == "E92" || txtProdcode.Text == "E97" || txtProdcode.Text == "E98")/*37.1 START*/
+            if (txtProdcode.Text == "E91" || txtProdcode.Text == "E92" || txtProdcode.Text == "E97" || txtProdcode.Text == "E98" || txtProdcode.Text == "EA2")/*37.1 START*/// New Product EA2
             {
                 ddlCategory.SelectedValue = _dsProdDtls.Rows[0]["Category"].ToString();
                 ddlpayoutfreq.SelectedValue = _dsProdDtls.Rows[0]["PayOutFrquency"].ToString();
                 /*37.1 START*/
-                if (txtProdcode.Text == "E97" || txtProdcode.Text == "E98")
+                if (txtProdcode.Text == "E97" || txtProdcode.Text == "E98" || txtProdcode.Text == "EA2")// New Product EA2
                 {
                     ddlPayoutType.SelectedValue = (_dsProdDtls.Rows[0]["PayoutType"].ToString()).ToLower();
                     ddlPayoutType.Enabled = false;
@@ -2120,7 +2120,7 @@ public partial class Appcode_Default : System.Web.UI.Page
                 }
                 /*37.1 END*/
             }
-            if (txtProdcode.Text == "E93" || txtProdcode.Text == "E94")
+            if (txtProdcode.Text == "E93" || txtProdcode.Text == "E94" || txtProdcode.Text == "EA1")// New Product EA1
             {
                 ddlCategory.SelectedValue = _dsProdDtls.Rows[0]["Category"].ToString();
                 ddlprodcategory.SelectedValue = _dsProdDtls.Rows[0]["ProductCategory"].ToString();
@@ -13480,7 +13480,7 @@ public partial class Appcode_Default : System.Web.UI.Page
     protected void ddlPayoutType_SelectedIndexChanged(object sender, EventArgs e)
     {
         /*37.1 START*/
-        if (ViewState["ProductCode"].ToString() != "E97" && ViewState["ProductCode"].ToString() != "E98")
+        if (ViewState["ProductCode"].ToString() != "E97" && ViewState["ProductCode"].ToString() != "E98" && ViewState["ProductCode"].ToString() != "EA2") // new product EA2
         {
             /*37.1 END*/
             if (ddlPayoutType.SelectedValue != "--Select--" && ddlPayoutType.SelectedValue != "")
